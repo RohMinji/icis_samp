@@ -8,7 +8,7 @@ COPY src ./src
 COPY mvnw ./         
 COPY . ./
 
-RUN ./mvnw clea -Dmaven.test.skip=true
+RUN ./mvnw clean -Dmaven.test.skip=true
 
 #FROM eclipse-temurin:17.0.2_8-jre-alpine
 FROM ghcr.io/shclub/jre17-runtime:v1.0.0
