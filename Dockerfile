@@ -8,4 +8,4 @@ COPY src ./src
 COPY mvnw ./         
 COPY . ./
 
-RUN ./mvnw clean package -Dmaven.test.skip=true
+RUN ./mvnw clean
